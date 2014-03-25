@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/opscode/omnibus-ruby.git
-  revision: 41877c441bb1f64fc67263c02438fd47e456dc37
+  revision: 04b0f833f6da1abe3699f0222c2c11bdcd9371f0
   branch: sethvargo/dmg_support
   specs:
     omnibus (2.0.1)
@@ -61,7 +61,7 @@ GEM
       mixlib-shellout
       systemu (~> 2.5.2)
       yajl-ruby
-    rake (10.2.0)
+    rake (10.2.1)
     systemu (2.5.2)
     thor (0.19.1)
     uber-s3 (0.2.4)
