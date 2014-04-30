@@ -49,3 +49,4 @@ dependency "chefdk"
 dependency "rubygems-customization"
 dependency "chef-client-msi"
 dependency "version-manifest"
+
