@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/opscode/omnibus-ruby.git
-  revision: 53b57bc80edeb160a712b954ae06c0473578d5fe
-  branch: master
+  revision: eadf6bb0307be346df827baef14a050b4089a8ec
+  branch: sersut/msi-packager
   specs:
     omnibus (3.0.0)
       chef-sugar (~> 1.2)
@@ -14,8 +14,8 @@ GIT
 
 GIT
   remote: git://github.com/opscode/omnibus-software.git
-  revision: 98b0838cf0085b41539c4b2bbf47f9c089b7604e
-  branch: master
+  revision: b05e69d714b130420f7e6c5d855179567a69707c
+  branch: sersut/msi-packager
   specs:
     omnibus-software (0.0.1)
 
@@ -50,7 +50,7 @@ GEM
     ipaddress (0.8.0)
     json (1.8.1)
     mime-types (1.25.1)
-    mixlib-cli (1.4.0)
+    mixlib-cli (1.5.0)
     mixlib-config (2.1.0)
     mixlib-log (1.6.0)
     mixlib-shellout (1.4.0)
