@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'ffi', github: 'ffi/ffi', branch: 'libffi-3.2.1'
 gem 'omnibus', github: 'opscode/omnibus'
 gem 'omnibus-software', github: 'osuosl/omnibus-software', branch: 'ramereth/ppc64le'
 
