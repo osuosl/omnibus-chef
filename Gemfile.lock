@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git://github.com/osuosl/omnibus-software.git
-  revision: 38ea617dd7d478be052a5117d4ae149f9f4ac1d8
+  revision: d7df0e40c1556e584fd3139c1da5a976d288cadd
   branch: ramereth/ppc64le
   specs:
     omnibus-software (4.0.0)
