@@ -5,6 +5,9 @@ DEPENDENCIES
     revision: 218229d8f1a40aa540d2cf1e83fec391e3c6792d
   freebsd (~> 0.1)
   omnibus
+    git: git://github.com/osuosl-cookbooks/omnibus.git
+    revision: 5388aba03d00fa93368241a07458290db6797c60
+    branch: ramereth/ppc64le
   rhsm
   yum-epel (~> 0.3)
 

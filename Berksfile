@@ -1,6 +1,9 @@
 source 'https://api.berkshelf.com'
 
-cookbook 'omnibus'
+cookbook 'omnibus',
+         github: 'osuosl-cookbooks/omnibus',
+         branch: 'ramereth/ppc64le'
+cookbook 'rhsm'
 cookbook 'docker', github: 'tduffield/chef-docker'
 
 # Uncomment to use the latest version of the Omnibus cookbook from GitHub
