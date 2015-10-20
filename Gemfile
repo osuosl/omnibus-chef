@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'omnibus', github: 'chef/omnibus'
-gem 'omnibus-software', github: 'osuosl/omnibus-software'
+gem 'omnibus-software', github: 'osuosl/omnibus-software', branch: 'ramereth/ppc64le-chef-12.4.3'
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
