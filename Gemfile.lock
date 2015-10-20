@@ -1,10 +1,4 @@
 GIT
-  remote: git://github.com/chef/omnibus-software.git
-  revision: affd12da7de7cf0d8ba2bbb9e5e79ad1bfd7efdd
-  specs:
-    omnibus-software (4.0.0)
-
-GIT
   remote: git://github.com/chef/omnibus.git
   revision: 4fbd8e7e1e501e3cb99ba7f34634444523f9f266
   specs:
@@ -17,6 +11,12 @@ GIT
       ohai (~> 8.0)
       ruby-progressbar (~> 1.7)
       thor (~> 0.18)
+
+GIT
+  remote: git://github.com/osuosl/omnibus-software.git
+  revision: af25f488a37beec33c9d61588ec43ade6aaaf799
+  specs:
+    omnibus-software (4.0.0)
 
 GEM
   remote: https://rubygems.org/
